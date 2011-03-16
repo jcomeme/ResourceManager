@@ -49,7 +49,8 @@
 {
     // Update the user interface for the detail item.
 
-    self.detailDescriptionLabel.text = [self.detailItem description];
+    //self.detailDescriptionLabel.text = [self.detailItem description];
+    self.detailDescriptionLabel.text = @"Resouece Manager";
 }
 
 - (void)viewWillAppear:(BOOL)animated
